@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--Author: Ronak Dave-->
+<head>
+    <title>Contact Us - My Cinema Times</title>
+    <link href="contact.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+  <div class="banner">
+    <a href="/"><img src="images/banner.png" /></a>
+  </div>
+
+  <div class="nav">
+    <div class="navimgs">
+      <a title="Home" href="index.html"><img class="navimgs" src="images/nav_index.png" /></a>
+    </div>
+    <div class="navimgs">
+      <a title="Cineplanet 16" href="cineplanet16.html"><img class="navimgs" src="images/nav_cp16.png" /></a>
+    </div>
+    <div class="navimgs">
+      <a title="Hollywood 16" href="hollywood16.html"><img class="navimgs" src="images/nav_hw16.png" /></a>
+    </div>
+    <div class="navimgs">
+      <a title="Cinema Planet 10" href="cinemaplanet10.html"><img class="navimgs" src="images/nav_cp10.png" /></a>
+    </div>
+    <div class="navimgs">
+      <a title="Ticket Prices" href="ticket.html"><img class="navimgs" src="images/nav_ticket.png" /></a>
+    </div>
+    <div class="navimgs">
+      <a title="Birthday Parties" href="birthday.html"><img class="navimgs" src="images/nav_birthday.png" /></a>
+    </div>
+    <div class="navimgs">
+      <a title="Careers" href="careers.html"><img class="navimgs" src="images/nav_career.png" /></a>
+    </div>
+    <div class="navimgs">
+      <a title="Contact Us" href="contact.html"><img class="navimgs" src="images/nav_contact.png" /></a>
+    </div>
+  </div>
+
+  <div class="text">
+    <p><span style="color:#74c4ff; font-size:25px; font-weight:bold">Leave your comments and suggestions below!</br></br>
+  </div>
+
+  <form target="_self" class="feedback" method="post">
+    Name: </br><input type="text" name="userName"></br></br>
+    Email address: </br><input type="email" name="email"></br></br>
+    Phone number: </br><input type="tel" name="phone"></br></br>
+    Please select your cinema(s) of choice: </br>
+    <input type="checkbox" name="theater" id="Cineplanet" value="Cineplanet"> <label for="Cineplanet">Cineplanet 16 (Atoka)</label></br>
+    <input type="checkbox" name="theater" id="Hollywood" value="Hollywood"> <label for="Hollywood">Hollywood 16 (Jackson)</label></br>
+    <input type="checkbox" name="theater" id="CinemaPlanet" value="CinemaPlanet"> <label for="CinemaPlanet">Cinema Planet 10 (Jackson)</label></br></br>
+    Please leave your comments here: </br><textarea name="message" style="width:650px; height:200px;"></textarea></br></br>
+    <input type="hidden" name="redirect" value="submission.html">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+</body>

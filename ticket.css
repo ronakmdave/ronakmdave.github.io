@@ -1,0 +1,43 @@
+/*
+CSS for My Cinema Times home page
+Author: Ronak Dave
+*/
+
+body{
+  background-image: url(images/starbkgrnd.gif);
+  color: #ffffff;
+}
+
+.banner{
+  margin: auto;
+  width: 864px;
+}
+
+.nav{
+  position: sticky;
+  top: 0;
+  background-image: url(images/starbkgrnd.gif);
+  width: 1120px;
+  margin: auto;
+}
+
+img.navimgs{
+  height: 30px;
+  width: auto;
+}
+
+.navimgs{
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.ticket{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: "Verdana";
+  text-align: center;
+  margin-top: 50px;
+}
